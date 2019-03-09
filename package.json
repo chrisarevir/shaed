@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "shaed",
   "private": true,
   "scripts": {
     "dev": "lerna run dev"

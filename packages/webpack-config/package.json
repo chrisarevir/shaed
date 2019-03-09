@@ -1,6 +1,6 @@
 {
   "name": "@shaed/webpack-config",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Basic webpack config for typescript and react projects",
   "main": "dist/index.js",
   "scripts": {

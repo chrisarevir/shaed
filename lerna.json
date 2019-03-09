@@ -1,6 +1,11 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "gitflow": {
+    "master": "master",
+    "develop": "develop"
+  },
+  "npmClient": "yarn",
+  "parallel": true,
+  "packages": ["packages/*"],
+  "useWorkspaces": true,
   "version": "0.0.0"
 }

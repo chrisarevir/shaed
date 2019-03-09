@@ -1,0 +1,16 @@
+.idea
+.lock-wscript
+.node_repl_history
+.npm
+*.log
+*.pid
+*.seed
+build
+coverage
+dist
+lib
+lib-cov
+logs
+node_modules
+npm-debug.log*
+pids

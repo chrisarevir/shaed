@@ -4,9 +4,9 @@
   "description": "Basic webpack config for typescript and react projects",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm run clean && babel src -d dist",
+    "build": "yarn clean && babel src -d dist",
     "clean": "rimraf dist",
-    "dev": "npm run clean && babel src -d dist --watch",
+    "dev": "yarn clean && babel src -d dist --watch",
     "prepublishOnly": "npm run build",
     "lint-staged": "lint-staged",
     "pretty": "prettier --write",

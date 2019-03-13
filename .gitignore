@@ -3,6 +3,7 @@
 .DS_Store
 .env
 .idea
+.tool-versions
 *.log
 build
 node_modules

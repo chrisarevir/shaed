@@ -6,7 +6,7 @@
   "scripts": {
     "build": "yarn clean && babel src -d dist",
     "clean": "rimraf dist",
-    "dev": "yarn clean && babel src -d dist --watch",
+    "dev": "babel src -d dist --watch",
     "prepublishOnly": "yarn build",
     "lint-staged": "lint-staged",
     "pretty": "prettier --write",

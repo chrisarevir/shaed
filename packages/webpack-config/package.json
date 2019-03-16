@@ -4,17 +4,17 @@
   "description": "Basic webpack config for typescript and react projects",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm run clean && babel src -d dist",
+    "build": "yarn clean && babel src -d dist",
     "clean": "rimraf dist",
-    "dev": "npm run clean && babel src -d dist --watch",
-    "prepublishOnly": "npm run build",
+    "dev": "babel src -d dist --watch",
+    "prepublishOnly": "yarn build",
     "lint-staged": "lint-staged",
     "pretty": "prettier --write",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisarevir/shaed-webpack.git"
+    "url": "git+https://github.com/chrisarevir/shaed.git"
   },
   "keywords": [
     "components",
@@ -27,7 +27,7 @@
   ],
   "author": "chrisarevir",
   "license": "MIT",
-  "bugs": "https://github.com/chrisarevir/shaed-webpack/issues",
+  "bugs": "https://github.com/chrisarevir/shaed/issues",
   "dependencies": {
     "@babel/core": "7.3.4",
     "@babel/plugin-proposal-object-rest-spread": "7.3.4",

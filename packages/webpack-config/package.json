@@ -44,7 +44,7 @@
     "precss": "4.0.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "^1.1.0",
-    "ts-loader": "5.4.4",
+    "ts-loader": "5.4.5",
     "typescript": "3.4.5",
     "webpack": "4.30.0",
     "webpack-merge": "4.2.1"
